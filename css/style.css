@@ -111,3 +111,9 @@ body{
     line-height: 100px;
     color: #323232;
 }
+/*导航样式*/
+.page-nav .logo{
+    height: 49px;
+    width: 49px;
+    background-color: #ff6700;
+}
