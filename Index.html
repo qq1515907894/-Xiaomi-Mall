@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!--首页css-->
     <link rel="stylesheet" href="css/index.css">
+    <!--引入轮播图CSS-->
+    <link rel="stylesheet" href="css/lunbo.css">
     <!--引入网页标题图标-->
     <link rel="icon" href="images/icons/favicon.ico">
     <!--引入iconfont字体图标-->
@@ -76,48 +78,307 @@
 
         </div>
     </div>
-</div>
+
 <!--顶部 E-->
 
 <!--导航 S-->
 <div class="page-nav">
     <div class="container">
-        <a href="" class="logo"><img src="images/mi-logo.png" alt=""></a>
+        <a href="" class="logo"></a>
         <ul class="nav">
             <li class="nav-item">
-                <a href="" class="tit">全部商品分类</a>
+                <a href="#" class="tit" style="display: none">全部商品分类</a>
             </li>
             <li class="nav-item">
-                <a href="" class="tit">小米手机</a>
+                <a href="#" class="tit xiaomiphone">
+                    小米手机
+                    <div class="down-nav-miphone down-nav-mi">
+                        <div class="container">
+                            <div class="clear"></div>
+
+                            <div class="phone-item">
+                                <img src="images/小米10青春版5G.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">小米10 青春版 5G</span>
+                                    <span class="phone-money">1899元起</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+
+                            <div class="phone-item">
+                                <img src="images/小米10Pro.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">小米10 Pro</span>
+                                    <span class="phone-money">4999元起</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+
+                            <div class="phone-item">
+                                <img src="images/小米10.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">小米10</span>
+                                    <span class="phone-money">3799元起</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+                            <div class="phone-item">
+                                <img src="images/小米CC9.png" alt="">
+                                <div class="info">
+                                    <span class="phone-name">小米CC9</span>
+                                    <span class="phone-money">1499元起</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+                            <div class="phone-item">
+                                <img src="images/小米CC9e.png" alt="">
+                                <div class="info">
+                                    <span class="phone-name">小米CC9e</span>
+                                    <span class="phone-money">1099元起</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+                            <div class="phone-item">
+                                <img src="images/小米CC9美图定制版.png" alt="">
+                                <div class="info">
+                                    <span class="phone-name">小米CC9e 美图定制版</span>
+                                    <span class="phone-money">1999元起</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </li>
             <li class="nav-item">
-                <a href="" class="tit">Readmi 红米</a>
+                <a href="#" class="tit readmiphone">
+                    Readmi 红米
+                    <div class="down-nav-miphone down-nav-readmi">
+                        <div class="container">
+                            <div class="clear"></div>
+
+                            <div class="phone-item">
+                                <img src="images/readmi9.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">Readmi 9</span>
+                                    <span class="phone-money">799元起</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+
+                            <div class="phone-item">
+                                <img src="images/readmi10X4G.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">Readmi 10X 4G</span>
+                                    <span class="phone-money">999元起</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+
+                            <div class="phone-item">
+                                <img src="images/readmi10X5G.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">Readmi 10X 5G系列</span>
+                                    <span class="phone-money">999元起</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+                            <div class="phone-item">
+                                <img src="images/readmiK30Pro.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">Readmi K30 Pro</span>
+                                    <span class="phone-money">2499元起</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+                            <div class="phone-item">
+                                <img src="images/readmiK30Pro变焦.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">Readmi K30 Pro 变焦版</span>
+                                    <span class="phone-money">3399元起</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+                            <div class="phone-item">
+                                <img src="images/readmiK30.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">Readmi K30</span>
+                                    <span class="phone-money">1399元起</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </li>
             <li class="nav-item">
-                <a href="" class="tit">电视</a>
+                <a href="#" class="tit tv">
+                    电视
+                    <div class="down-nav-miphone down-nav-tv">
+                        <div class="container">
+                            <div class="clear"></div>
+
+                            <div class="phone-item">
+                                <img src="images/小米电视大师65英寸OLED.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">小米电视 大师 65英寸 OLED</span>
+                                    <span class="phone-money">12999元</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+
+                            <div class="phone-item">
+                                <img src="images/电视MAX98.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">红米智能电视Max 98</span>
+                                    <span class="phone-money">19999元</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+
+                            <div class="phone-item">
+                                <img src="images/小米电视4a.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">小米电视4A 60英寸</span>
+                                    <span class="phone-money">1999元</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+                            <div class="phone-item">
+                                <img src="images/红米电视X55.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">Redmi 智能电视 X55</span>
+                                    <span class="phone-money">2199元</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+                            <div class="phone-item">
+                                <img src="images/红米电视R70A.webp" alt="">
+                                <div class="info">
+                                    <span class="phone-name">Readmi 红米电视 70英寸 R70A</span>
+                                    <span class="phone-money">2999元</span>
+                                </div>
+                                <table style="height:100px;border: 1px #E0E0E0 solid"><tr><td valign="top"></td></tr></table>
+                            </div>
+                            <div class="phone-item">
+                                <img src="images/小米壁画电视.jpg" alt="">
+                                <div class="info">
+                                    <span class="phone-name">小米壁画电视 65英寸</span>
+                                    <span class="phone-money">6999元</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
             </li>
             <li class="nav-item">
-                <a href="" class="tit">笔记本</a>
+                <a href="#" class="tit">笔记本</a>
             </li>
             <li class="nav-item">
-                <a href="" class="tit">家电</a>
+                <a href="#" class="tit">家电</a>
             </li>
             <li class="nav-item">
-                <a href="" class="tit">路由器</a>
+                <a href="#" class="tit">路由器</a>
             </li>
             <li class="nav-item">
-                <a href="" class="tit">智能硬件</a>
+                <a href="#" class="tit">智能硬件</a>
             </li>
             <li class="nav-item">
-                <a href="" class="tit">服务</a>
+                <a href="#" class="tit">服务</a>
             </li>
             <li class="nav-item">
-                <a href="" class="tit">社区</a>
+                <a href="#" class="tit">社区</a>
             </li>
         </ul>
-        <div class="search"></div>
+        <div class="search">
+            <form action="">
+                <input type="search" placeholder="小米10">
+                <button><span class="iconfont">&#xe652;</span></button>
+            </form>
+        </div>
     </div>
+    <!--左侧商品栏-->
+    <div class="plan"></div>
+    <div class="slider-nav clear">
+        <ul class="slider-ul">
+
+            <li class="name one">
+                <a href="">
+                    <span class="goods">手机&#8194;</span>
+                    <span class="goods">电话卡</span>
+                    <span class="iconfont">&#xe61d;</span>
+                </a>
+<!--                图片伪装展开-->
+                <div class="page-left-nav on">
+                    <img src="images/手机电话卡.png" alt="">
+                </div>
+
+            </li>
+            <li class="name two">
+                <a href="">
+                    <span class="goods">电视&#8194;</span>
+                    <span class="goods">盒子</span>
+                    <span class="iconfont">&#xe61d;</span>
+                </a>
+                <div class="page-left-nav on">
+                    <img src="images/电视盒子.png" alt="">
+                </div>
+            </li>
+            <li class="name three">
+                <a href="">
+                    <span class="goods">笔记本&#8194;显示器&#8194;</span>
+                    <span class="goods">平板</span>
+                    <span class="iconfont">&#xe61d;</span>
+                </a>
+                <div class="page-left-nav on">
+                    <img src="images/家电.png" alt="">
+                </div>
+            </li>
+            <li class="name">
+                <a href="">
+                    <span class="goods">家电&#8194;</span>
+                    <span class="goods">插线板</span>
+                    <span class="iconfont">&#xe61d;</span>
+                </a>
+            </li>
+            <li class="name">
+                <a href="">
+                    <span class="goods">出行&#8194;</span>
+                    <span class="goods">穿戴</span>
+                    <span class="iconfont">&#xe61d;</span>
+                </a>
+            </li>
+            <li class="name">
+                <a href="">
+                    <span class="goods">智能&#8194;</span>
+                    <span class="goods">路由器</span>
+                    <span class="iconfont">&#xe61d;</span>
+                </a>
+            </li>
+            <li class="name">
+                <a href="">
+                    <span class="goods">耳机&#8194;</span>
+                    <span class="goods">音响</span>
+                    <span class="iconfont">&#xe61d;</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+</div>
 </div>
 <!--导航 E-->
+
+<!--轮播 S-->
+<div class="lb">
+    <div class="slide">
+        <ul class="slide-auto clear">
+            <li><img src="images/轮播1.jpg" alt=""></li>
+            <li><img src="images/轮播2.webp" alt=""></li>
+            <li><img src="images/轮播3.webp" alt=""></li>
+        </ul>
+    </div>
+</div>
+<!--轮播 E-->
 </body>
 </html>

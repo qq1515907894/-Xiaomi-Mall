@@ -1,0 +1,75 @@
+.slide {
+    position: relative;
+    z-index: 0;
+    width: 1226px;
+    height: 420px;
+    text-align: center;
+    font-family: Arial;
+    color: #FFF;
+    overflow: hidden;
+    left: 30px;
+    top: -10px;
+}
+
+.slide ul {
+    margin: 10px 0;
+    padding: 0;
+    width: 9999px;
+    transition: all 0.5s;
+}
+
+/*//自动播放*/
+.slide .slide-auto {
+    animation: marginLeft 10.5s infinite;
+}
+
+.slide li {
+    float: left;
+    width: 1226px;
+    height: 420px;
+    list-style: none;
+    line-height: 420px;
+    font-size: 36px;
+}
+
+.slide li:nth-child(1) {
+    background: #9fa8ef;
+}
+
+.slide li:nth-child(2) {
+    background: #ef9fb1;
+}
+
+.slide li:nth-child(3) {
+    background: #9fefc3;
+}
+
+@keyframes marginLeft {
+    0% {
+        margin-left: 0;
+    }
+
+    28.5% {
+        margin-left: 0;
+    }
+
+    33.3% {
+        margin-left: -1226px;
+    }
+
+    62% {
+        margin-left: -1226px;
+    }
+
+    66.7% {
+        margin-left: -2452px;
+    }
+
+    95.2% {
+        margin-left: -2452px;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
