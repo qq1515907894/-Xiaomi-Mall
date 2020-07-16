@@ -6,6 +6,41 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "577393",
+      "name": "顶部",
+      "font_class": "dingbu",
+      "unicode": "e76c",
+      "unicode_decimal": 59244
+    },
+    {
+      "icon_id": "451572",
+      "name": "售后",
+      "font_class": "shouhou",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "1440210",
+      "name": "个人",
+      "font_class": "tubiaozhizuomoban",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "1667289",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "2570064",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
       "icon_id": "1037692",
       "name": "向右",
       "font_class": "xiangyou",
