@@ -361,3 +361,19 @@ body{
 .nav-right ul li span:hover{
     cursor: default;
 }
+.nav-right ul li img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 6px auto;
+}
+.nav-right ul li .ewm{
+    right: 74px;
+    top: 104px;
+    display: none;
+    position: fixed;
+}
+.nav-right .phone-app:hover .ewm{
+    display: block;
+    color: #a2a2a2;
+}
